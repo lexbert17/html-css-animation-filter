@@ -79,11 +79,23 @@
     margin: 50px 100px;
     width: 400px;
 }
+.ex-9-img:hover{
+    filter: contrast(3) hue-rotate(90deg) ;
+    border-radius: 30px;
+    transform: scale(2);
+}
+
 .ex-10-icon {
     font-size: 60px;
+    transition: all, 3s;
 }
+.ex-10-icon:hover{
+    transform: rotate(360deg);
+}
+
 .ex-11-icon {
     font-size: 60px;
+    
 }
 .ex-12-button, .ex-13-button {
     position: relative;
