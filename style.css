@@ -87,16 +87,31 @@
 
 .ex-10-icon {
     font-size: 60px;
-    transition: all, 3s;
+    animation:rotate 2s linear infinite;
 }
-.ex-10-icon:hover{
-    transform: rotate(360deg);
+@keyframes rotate{
+    0%{
+        transform: rotate(360deg);
+    }
 }
 
 .ex-11-icon {
     font-size: 60px;
     
 }
+.ex-11-icon:hover{
+    animation: clock 4s linear ;
+}
+
+@keyframes clock {
+    0%{
+        transform: rotate(1deg);  
+    }
+    90%{
+        transform: rotate(260deg);
+    }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
